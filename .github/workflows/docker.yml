@@ -37,7 +37,7 @@ jobs:
           label=test
         fi
         tag() {
-          echo "${1}/martinthomson/i-d-template${2}:${label}"
+          echo "${1}/divergentdave/i-d-template${2}:${label}"
         }
         if [ "$label" = "test" ]; then
           registry=localhost:5000
